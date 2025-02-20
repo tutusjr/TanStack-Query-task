@@ -118,7 +118,7 @@ const UserList = () => {
   ];
 
   return (
-    <Card sx={{ maxWidth: 1000, mx: "auto", mt: 4, boxShadow: 3, p: 2 }}>
+    <Card sx={{ maxWidth: 900, mx: "auto", mt: 4, boxShadow: 3, p: 2 }}>
       <CardContent>
         <Typography variant="h5" gutterBottom>
           Kullanici Listesi
