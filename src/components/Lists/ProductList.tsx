@@ -127,7 +127,7 @@ const ProductList = () => {
                 icon={<DeleteIcon color="error" />}
                 label="Delete"
                 onClick={() =>
-                  window.confirm("Are you sure?") &&
+                  window.confirm("Silmek istediğinize emin misiniz?") &&
                   deleteMutation.mutate(params.row.id)
                 }
               />,
